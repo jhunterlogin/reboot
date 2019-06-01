@@ -1,6 +1,6 @@
 ---
   - name: Patch the server and Reboot
-    hosts: app
+    hosts: all
     tasks:
       - name: Reboot the server
         tags: reboot
